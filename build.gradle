@@ -13,7 +13,8 @@ task wrapper(type: Wrapper){
 }
 
 repositories {
-    maven {url "http://xldn3273dap.ldn.swissbank.com:8081/nexus/content/groups/public"}
+//    maven {url "http://xldn3273dap.ldn.swissbank.com:8081/nexus/content/groups/public"}
+    mavenCentral()
 }
 
 idea.module {
