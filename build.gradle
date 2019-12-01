@@ -9,12 +9,12 @@ group = 'com.ubs.opsit.interviews.berlinclock'
 
 task wrapper(type: Wrapper){
     description = 'Generates gradlew scripts for NIX and win envs'
-    gradleVersion = '2.0'
+    gradleVersion = '2.10'
 }
 
 repositories {
-//    maven {url "http://xldn3273dap.ldn.swissbank.com:8081/nexus/content/groups/public"}
     mavenCentral()
+//    maven {url "http://xldn3273dap.ldn.swissbank.com:8081/nexus/content/groups/public"}
 }
 
 idea.module {
